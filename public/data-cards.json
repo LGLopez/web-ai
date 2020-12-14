@@ -1,0 +1,7 @@
+{
+    "id": "1",
+    "img": "https://learn.ml5js.org/_media/reference__header-yolo.png",
+    "title": "Detección de objetos",
+    "description": "Este modelo encuentra objetos en especifico dentro de una imagen",
+    "redirect": "https://google.com/"
+}
