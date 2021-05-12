@@ -8,21 +8,21 @@ const CardsHolder = ( { forCards } ) => {
     return (
         <Container>
             <Row>
-                <Col md="auto">
-                    <div className="btn-group-vertical">
-                        <Fragment>
-                            {
-                                    <CardInfo 
-                                    key={forCards.id}
-                                    img={forCards.img}
-                                    title={forCards.title}
-                                    description={forCards.description}
-                                    redirect={forCards.redirect}
-                                    ></CardInfo>
-                            }
-                        </Fragment>
-                    </div>
+            {
+                forCards.map( card => 
+                <Col>
+                    <Fragment>
+                        <CardInfo 
+                            key={card.id}
+                            img={card.img}
+                            title={card.title}
+                            description={card.description}
+                            redirect={card.redirect}
+                        ></CardInfo> 
+                    </Fragment>
                 </Col>
+                )
+            }
             </Row>
         </Container>
     );
