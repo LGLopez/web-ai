@@ -14,6 +14,7 @@ const CardsHolder = ( { forCards } ) => {
                             {
                                     <CardInfo 
                                     key={forCards.id}
+                                    img={forCards.img}
                                     title={forCards.title}
                                     description={forCards.description}
                                     redirect={forCards.redirect}
