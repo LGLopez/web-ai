@@ -12,7 +12,7 @@ const CardInfo = ( {img, title, description, redirect} ) => {
                     {description}
                 </Card.Text>
             </Card.Body>
-            <Button variant="secondary" href={redirect} target="_blank">Ver el ejemplo</Button>
+            <Button variant="secondary" href={redirect} target="_blank">Ir a Docs</Button>
         </Card>
     );
 }

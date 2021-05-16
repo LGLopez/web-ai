@@ -3,19 +3,26 @@
     "img": "https://learn.ml5js.org/_media/reference__header-yolo.png",
     "title": "Detección de objetos",
     "description": "Este modelo encuentra objetos en especifico dentro de una imagen",
-    "redirect": "https://google.com/"
+    "redirect": "https://learn.ml5js.org/#/reference/object-detector"
 },
 {
     "id": "2",
     "img": "https://learn.ml5js.org/_media/reference__header-faceapi.png",
     "title": "Face-API",
     "description": "Este modelo permite la detección de rostros en una imagen",
-    "redirect": "https://google.com/"
+    "redirect": "https://learn.ml5js.org/#/reference/face-api"
 },
 {
     "id": "3",
     "img": "https://learn.ml5js.org/_media/reference__header-bodypix.png",
     "title": "BodyPix",
     "description": "Este modelo permite la detección del cuerpo de personas",
-    "redirect": "https://google.com/"
+    "redirect": "https://learn.ml5js.org/#/reference/bodypix"
+},
+{
+    "id": "4",
+    "img": "https://learn.ml5js.org/_media/reference__header-imageClassifier.png",
+    "title": "Clasificador de imagenes",
+    "description": "Este modelo permite el reconocimiento objetos dentro de las imagenes",
+    "redirect": "https://learn.ml5js.org/#/reference/image-classifier"
 }]
